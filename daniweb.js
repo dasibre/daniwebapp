@@ -70,8 +70,13 @@ app.get('/story', function(req,res) {
 })
 
 var testUsers = ['John', 'Jane', 'James']
+
 app.get('/',function(req,res){
-	res.status(200).json(users)
+	res.status(200).json(testUsers)
+})
+
+app.get('/resources',function(req,res){
+	res.status(200).json([])
 })
 
 app.get('/about',function(req,res){
