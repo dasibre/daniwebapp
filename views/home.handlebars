@@ -1,0 +1,6 @@
+<h5>{{users}}</h5>
+{{#each users as |user|}}
+    <div>
+    <a href="/{{user.username}}">{{user.name.full}}</a>
+    </div>
+ {{/each}}  
