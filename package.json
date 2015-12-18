@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "mocha --recursive",
     "start": "node daniweb.js",
     "dev": "nodemon daniweb.js",
     "debug": "node-debug daniweb.js"
