@@ -1,0 +1,28 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node daniweb.js",
+    "dev": "nodemon daniweb.js",
+    "debug": "node-debug daniweb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "migrate": "^0.2.2",
+    "mocha": "^2.3.4",
+    "mongo-migrate": "^0.1.0",
+    "nodemon": "^1.8.1",
+    "supertest": "^1.1.0"
+  }
+}
